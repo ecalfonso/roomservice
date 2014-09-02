@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="CyanogenMod/android_device_samsung_jflte" path="device/samsung/jflte" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" />
+  <project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
+
+  <!-- SaberMod Toolchain -->
+  <project name="kantjer/SaberMod" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="arm-eabi-4.9" />
+  <project name="kantjer/SaberMod" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="arm-linux-androideabi-4.8" />
+
+  <!-- Remove CM Projects for my Forks -->
+  <remove-project name="CyanogenMod/android_art" />
+  <project name="xsynergy510x/android_art" path="art" remote="github" /> 
+
+  <remove-project name="CyanogenMod/android_build" />
+  <project name="xsynergy510x/android_build" path="build" remote="github" />
+
+  <remove-project name="CyanogenMod/android_frameworks_base" />
+  <project name="xsynergy510x/android_frameworks_base" path="frameworks/base" remote="github" />
+
+  <remove-project name="CyanogenMod/android_hardware_qcom_display-caf" />
+  <project name="xsynergy510x/android_hardware_qcom_display-caf" path="hardware/qcom/display-caf" remote="github" />
+
+  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
+  <project name="xsynergy510x/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" />
+
+  <remove-project name="CyanogenMod/android_kernel_samsung_jf" />
+  <project name="xsynergy510x/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
+
+  <remove-project name="CyanogenMod/android_device_samsung_jflte" />
+  <project name="xsynergy510x/android_device_samsung_jflte" path="device/samsung/jflte" remote="github" />
+
+  <remove-project name="CyanogenMod/android_external_bash" />
+  <project name="xsynergy510x/android_external_bash" path="external/bash" remote="github" />
+
+  <remove-project name="CyanogenMod/android_external_fuse" />
+  <project name="xsynergy510x/android_external_fuse" path="external/fuse" remote="github" />
+
+  <remove-project name="CyanogenMod/android_external_exfat" />
+  <project name="xsynergy510x/android_external_exfat" path="external/exfat" remote="github" />
+
+  <remove-project name="CyanogenMod/android_packages_apps_InCallUI" />
+  <project name="xsynergy510x/android_packages_apps_InCallUI" path="packages/apps/InCallUI" remote="github" />
+
+  <remove-project name="CyanogenMod/android_packages_apps_Dialer" />
+  <project name="xsynergy510x/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" />
+
+  <remove-project name="CyanogenMod/android_packages_services_Telephony" />
+  <project name="xsynergy510x/android_packages_services_Telephony" path="packages/services/Telephony" remote="github" />
+
+  <!-- Remove Projects -->
+  <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
+  <remove-project name="CyanogenMod/android_packages_apps_Apollo" />
+  <remove-project name="CyanogenMod/android_packages_apps_VoiceDialer" />
+  <remove-project name="CyanogenMod/android_packages_apps_VideoEditor" />
+  <remove-project name="CyanogenMod/android_packages_apps_SoundRecorder" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMFileManager" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMWallpapers" />
+  <remove-project name="CyanogenMod/android_packages_apps_LockClock" />
+  <remove-project name="CyanogenMod/android_packages_apps_DSPManager" />
+  <remove-project name="CyanogenMod/android_packages_apps_Stk" />
+  <remove-project name="CyanogenMod/android_packages_apps_CMHome" />
+
+  <remove-project name="CyanogenMod/android_packages_wallpapers_Basic" />
+  <remove-project name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
+  <remove-project name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
+  <remove-project name="CyanogenMod/android_packages_wallpapers_NoiseField" />
+  <remove-project name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
+  <remove-project name="CyanogenMod/android_packages_wallpapers_MagicSmoke" />
+  <remove-project name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
+  <remove-project name="CyanogenMod/android_packages_wallpapers_HoloSpiral" />
+
+  <remove-project name="CyanogenMod/android_packages_screensavers_PhotoTable" />
+
+  <!-- Remove Unused Toolchains -->
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" />
+
+</manifest>
