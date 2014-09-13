@@ -64,6 +64,9 @@
   <remove-project name="CyanogenMod/android_external_e2fsprogs" />
   <project name="xsynergy510x/android_external_e2fsprogs" path="external/e2fsprogs" remote="github" />
 
+  <remove-project name="CyanogenMod/android_system_core" />
+  <project name="xsynergy510x/android_system_core" path="system/core" remote="github" />
+
   <!-- Remove Projects -->
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_packages_apps_Apollo" />
