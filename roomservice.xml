@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="CyanogenMod/android_device_samsung_jflte" path="device/samsung/jflte" remote="github" />
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
   <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" />
-  <project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
-  <!-- Kantjer SaberMod Toolchain
-  <project name="kantjer/SaberMod" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="arm-eabi-4.9" />
-  <project name="kantjer/SaberMod" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="arm-linux-androideabi-4.8" />
-  -->
-
   <!-- Kykdev SaberMod Toolchain, Optimized for Cortex A-15 -->
-  <project name="kykdev/sabermod-arm-cortex_a15-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="github" revision="master" />
-  <project name="kykdev/sabermod-arm-cortex_a15-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="master" />
+  <project name="kykdev/sabermod-arm-cortex_a15-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-SM-Combo" remote="github" revision="master" />
+  <project name="kykdev/sabermod-arm-cortex_a15-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM-Combo" remote="github" revision="master" />
 
   <!-- Remove CM Projects for my Forks -->
   <remove-project name="CyanogenMod/android_art" />
@@ -31,10 +24,8 @@
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <project name="xsynergy510x/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" />
 
-  <remove-project name="CyanogenMod/android_kernel_samsung_jf" />
-  <project name="xsynergy510x/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
+  <project name="xsynergy510x/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-11.0" />
 
-  <remove-project name="CyanogenMod/android_device_samsung_jflte" />
   <project name="xsynergy510x/android_device_samsung_jflte" path="device/samsung/jflte" remote="github" />
 
   <remove-project name="CyanogenMod/android_external_bash" />
