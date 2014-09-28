@@ -8,6 +8,9 @@
   <project name="kykdev/sabermod-arm-cortex_a15-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-SM-Combo" remote="github" revision="master" />
   <project name="kykdev/sabermod-arm-cortex_a15-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM-Combo" remote="github" revision="master" />
 
+  <!-- Get proprietary stuff form TheMuppets -->
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
+
   <!-- Remove CM Projects for my Forks -->
   <remove-project name="CyanogenMod/android_art" />
   <project name="xsynergy510x/android_art" path="art" remote="github" /> 
