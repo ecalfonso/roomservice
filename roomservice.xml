@@ -56,6 +56,9 @@
   <remove-project name="CyanogenMod/android_system_core" />
   <project name="xsynergy510x/android_system_core" path="system/core" remote="github" />
 
+  <remove-project name="CyanogenMod/android_system_vold" />
+  <project name="xsynergy510x/android_system_vold" path="system/vold" remote="github" />
+
   <!-- Remove Projects -->
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_packages_apps_Apollo" />
