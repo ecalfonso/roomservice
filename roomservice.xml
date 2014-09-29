@@ -53,12 +53,6 @@
   <remove-project name="CyanogenMod/android_vendor_cm" />
   <project name="xsynergy510x/android_vendor_cm" path="vendor/cm" remote="github" />
 
-  <remove-project name="CyanogenMod/android_system_vold" />
-  <project name="xsynergy510x/android_system_vold" path="system/vold" remote="github" />
-
-  <remove-project name="CyanogenMod/android_external_e2fsprogs" />
-  <project name="xsynergy510x/android_external_e2fsprogs" path="external/e2fsprogs" remote="github" />
-
   <remove-project name="CyanogenMod/android_system_core" />
   <project name="xsynergy510x/android_system_core" path="system/core" remote="github" />
 
