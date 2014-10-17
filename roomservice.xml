@@ -12,7 +12,6 @@
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
 
   <!-- My Forks -->
-  <project name="xsynergy510x/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-11.0" />
   <project name="xsynergy510x/android_device_samsung_jflte" path="device/samsung/jflte" remote="github" />
   <project name="xsynergy510x/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" />
 
@@ -55,9 +54,6 @@
 
   <remove-project name="CyanogenMod/android_system_core" />
   <project name="xsynergy510x/android_system_core" path="system/core" remote="github" />
-
-  <remove-project name="CyanogenMod/android_system_vold" />
-  <project name="xsynergy510x/android_system_vold" path="system/vold" remote="github" />
 
   <!-- Remove Projects -->
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
