@@ -3,10 +3,11 @@
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
   <project name="CyanogenMod/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
+  <project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
 
-  <!-- Kykdev SaberMod Toolchain, Optimized for Cortex A-15 -->
-  <project name="kykdev/sabermod-arm-cortex_a15-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-SM-Combo" remote="github" revision="master" />
-  <project name="kykdev/sabermod-arm-cortex_a15-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM-Combo" remote="github" revision="master" />
+  <!-- SaberMod Official Toolchains -->
+  <project name="SaberMod/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-SM-Combo" remote="github" revision="master" />
+  <project name="SaberMod/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM-Combo" remote="github" revision="master" />
 
   <!-- Get proprietary stuff form TheMuppets -->
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
