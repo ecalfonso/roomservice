@@ -9,10 +9,6 @@
   <project name="xsynergy510x/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-SM-Combo" remote="github" revision="master" />
   <project name="xsynergy510x/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-SM-Combo" remote="github" revision="master" />
 
-  <!-- JustArchi's Linaro Toolchains -->
-  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-eabi-Linaro-4.9" remote="github" revision="linaro-4.9-arm-eabi" />
-  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-Linaro-4.9" remote="github" revision="linaro-4.9-arm-linux-androideabi" />
-
   <!-- Get proprietary stuff form TheMuppets -->
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
 
@@ -59,9 +55,6 @@
 
   <remove-project name="CyanogenMod/android_system_core" />
   <project name="xsynergy510x/android_system_core" path="system/core" remote="github" />
-
-  <remove-project name="CyanogenMod/android_external_webp" />
-  <project name="xsynergy510x/android_external_webp" path="external/webp" remote="github"/>
 
   <!-- Remove Projects -->
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
