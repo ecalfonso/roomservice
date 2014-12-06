@@ -18,7 +18,7 @@
   <!-- My Forks -->
   <project name="xsynergy510x/android_device_samsung_jflte" path="device/samsung/jflte" remote="github" />
   <project name="xsynergy510x/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" />
-  <project name-"xsynergy510x/android_kernel_jf" path="kernel/samsung/jf" remote="github" />
+  <project name="xsynergy510x/kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
 
   <!-- Remove CM Projects for my Forks -->
   <remove-project name="CyanogenMod/android_art" />
