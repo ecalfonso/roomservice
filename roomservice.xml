@@ -30,6 +30,10 @@
   <project name="xsynergy510x/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
   <project name="xsynergy510x/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
 
+    <!-- My flo specific forks -->
+  <project name="xsynergy510x/android_device_asus_flo" path="device/asus/flo" remote="github" />
+  <project name="xsynergy510x/android_kernel_google_msm" path="kernel/google/msm" remote="github" />
+
     <!-- Remove un-needed stuff -->
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_packages_apps_VoiceDialer" />
