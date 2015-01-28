@@ -15,6 +15,8 @@
   <project name="xsynergy510x/android_build" path="build" remote="github" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <project name="xsynergy510x/android_frameworks_base" path="frameworks/base" remote="github" />
+  <remove-project name="CyanogenMod/android_packages_apps_Gallery2" />
+  <project name="xsynergy510x/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="github" />
   <remove-project name="CyanogenMod/android_packages_apps_Mms-caf" />
   <project name="xsynergy510x/android_packages_apps_Mms-caf" path="packages/apps/Mms" remote="github" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
