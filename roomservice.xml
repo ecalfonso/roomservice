@@ -17,6 +17,7 @@
   <project name="xsynergy510x/android_frameworks_base" path="frameworks/base" remote="github" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <project name="xsynergy510x/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" />
+  <project path="hardware/qcom/display-caf/msm8960" name="xsynergy510x/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8960" />
   <remove-project name="CyanogenMod/android_packages_apps_Gallery2" />
   <project name="xsynergy510x/android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="github" />
   <remove-project name="CyanogenMod/android_packages_apps_Mms-caf" />
