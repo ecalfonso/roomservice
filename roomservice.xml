@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote name="gitorious" fetch="https://gitorious.org/" />
+
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
     <!-- Grab @AntaresOne's jf files for unified jflte -->
