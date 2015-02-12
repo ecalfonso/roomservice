@@ -4,11 +4,6 @@
 
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
-    <!-- Grab @AntaresOne's jf files for unified jflte -->
-    <!--Device tree-->
-  <project path="device/samsung/jflte" name="AntaresOne/android_device_samsung_jflte" remote="github" revision="cm-12.0" />
-    <!--Proprietary vendor blobs-->
-  <project path="vendor/samsung" name="AntaresOne/proprietary_vendor_samsung" remote="github" revision="cm-12.0" />
 
     <!-- SaberMod toolchain -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
@@ -32,9 +27,11 @@
   <project name="xsynergy510x/android_vendor_cm" path="vendor/cm" remote="github" />
 
     <!-- My jf specific forks -->
+  <project path="device/samsung/jflte" name="xsynergy510x/android_device_samsung_jflte" remote="github" />
   <project name="xsynergy510x/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" />
   <project name="xsynergy510x/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
   <project path="device/samsung/qcom-common" name="xsynergy510x/android_device_samsung_qcom-common" remote="github" />
+  <project path="vendor/samsung" name="xsynergy510x/proprietary_vendor_samsung" remote="github" />
 
     <!-- Remove un-needed stuff -->
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
