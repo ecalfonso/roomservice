@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="gitorious" fetch="https://gitorious.org/" />
+  <remote name="gitorious" 
+	  fetch="https://gitorious.org/" />
+  <remote name="aosp"
+          fetch="https://android.googlesource.com/" />
 
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
@@ -9,6 +12,9 @@
   <project name="SaberMod/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="master" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <project name="~xsynergy510x/sm-arm-eabi-4_9/sm-arm-eabi-4_9.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="gitorious" revision="master" />
+
+    <!-- glibc stuff -->
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" remote="aosp" />
 
     <!-- My CM forks -->
   <remove-project name="CyanogenMod/android_build" />
