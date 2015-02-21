@@ -4,12 +4,11 @@
 
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
-
     <!-- SaberMod toolchain -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
   <project name="SaberMod/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="master" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
-  <project name="SaberMod/arm-eabi-4_9.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="gitorious" revision="master" />
+  <project name="xsynergy510x/sabermod/sm-arm-eabi-4_9.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="gitorious" revision="master" />
 
     <!-- My CM forks -->
   <remove-project name="CyanogenMod/android_build" />
