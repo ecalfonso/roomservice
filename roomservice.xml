@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- Source Definitions -->
   <remote name="gitorious" 
 	  fetch="https://gitorious.org/" />
 
-  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
     <!-- SaberMod toolchain -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
@@ -11,7 +11,7 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <project name="~xsynergy510x/sm-arm-eabi-4_9/sm-arm-eabi-4_9.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="gitorious" revision="master" />
 
-    <!-- glibc stuff -->
+    <!-- Grab Google Host GCC 4.8 toolchain -->
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="aosp" revision="master" />
 
     <!-- My CM forks -->
@@ -30,13 +30,14 @@
   <project name="xsynergy510x/android_vendor_cm" path="vendor/cm" remote="github" />
 
     <!-- My jf specific forks -->
-  <project path="device/samsung/jflte" name="xsynergy510x/android_device_samsung_jflte" remote="github" />
+  <project name="xsynergy510x/android_device_samsung_jflte" path="device/samsung/jflte" remote="github" />
   <project name="xsynergy510x/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" />
   <project name="xsynergy510x/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
-  <project path="device/samsung/qcom-common" name="xsynergy510x/android_device_samsung_qcom-common" remote="github" />
-  <project path="vendor/samsung" name="xsynergy510x/proprietary_vendor_samsung" remote="github" />
+  <project name="xsynergy510x/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
+  <project name="xsynergy510x/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
-    <!-- Remove un-needed stuff -->
+    <!-- Remove bloat -->
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <remove-project name="CyanogenMod/android_packages_apps_CMFileManager" />
