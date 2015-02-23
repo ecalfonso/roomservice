@@ -6,9 +6,9 @@
 
     <!-- SaberMod toolchain -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
-  <project name="xsynergy510x/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="master" />
+  <project name="SaberMod/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="master" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
-  <project name="~xsynergy510x/sm-arm-eabi-4_9/sm-arm-eabi-4_9.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="gitorious" revision="master" />
+  <project name="SaberMod/sm-arm-eabi-4_9.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="gitorious" revision="master" />
 
     <!-- Grab Google Host GCC 4.8 toolchain -->
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="aosp" revision="master" />
