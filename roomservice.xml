@@ -4,10 +4,9 @@
   <remote name="gitorious" 
 	  fetch="https://gitorious.org/" />
 
-
     <!-- SaberMod toolchain -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
-  <project name="SaberMod/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="master" />
+  <project name="xsynergy510x/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="master" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <project name="~xsynergy510x/sm-arm-eabi-4_9/sm-arm-eabi-4_9.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="gitorious" revision="master" />
 
@@ -26,6 +25,8 @@
   <project name="xsynergy510x/android_packages_apps_Mms-caf" path="packages/apps/Mms" remote="github" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <project name="xsynergy510x/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" />
+  <remove-project name="CyanogenMod/android_system_core" />
+  <project name="xsynergy510x/android_system_core" path="system/core" remote="github" />
   <remove-project name="CyanogenMod/android_vendor_cm" />
   <project name="xsynergy510x/android_vendor_cm" path="vendor/cm" remote="github" />
 
@@ -36,6 +37,12 @@
   <project name="xsynergy510x/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
   <project name="xsynergy510x/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
+
+    <!-- SaberMod Optimized repos -->
+  <remove-project name="CyanogenMod/android_art" />
+  <project name="SaberMod/SaberMod_art" path="art" remote="github" revision="lollipop" />
+  <remove-project name="CyanogenMod/android_bionic" />
+  <project name="SaberMod/SaberMod_bionic" path="bionic" remote="github" revision="lollipop" />
 
     <!-- Remove bloat -->
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
