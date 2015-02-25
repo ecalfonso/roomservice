@@ -36,8 +36,6 @@
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
     <!-- SaberMod Optimized repos -->
-  <remove-project name="CyanogenMod/android_art" />
-  <project name="SaberMod/SaberMod_art" path="art" remote="github" revision="lollipop" />
   <remove-project name="CyanogenMod/android_bionic" />
   <project name="SaberMod/SaberMod_bionic" path="bionic" remote="github" revision="lollipop" />
 
