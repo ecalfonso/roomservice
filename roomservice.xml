@@ -18,6 +18,8 @@
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <project name="xsynergy510x/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" />
   <project path="hardware/qcom/display-caf/msm8960" name="xsynergy510x/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.0-caf-8960" />
+  <remove-project name="CyanogenMod/android_packages_apps_Dialer" />
+  <project name="xsynergy510x/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" />
   <remove-project name="CyanogenMod/android_packages_apps_Mms-caf" />
   <project name="xsynergy510x/android_packages_apps_Mms-caf" path="packages/apps/Mms" remote="github" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
