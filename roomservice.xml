@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- Source Definitions -->
-  <remote name="gitorious" 
-	  fetch="https://gitorious.org/" />
+  <remote name="gitlab"
+	  fetch="https://gitlab.com" />
 
     <!-- SaberMod toolchain -->
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" />
-  <project name="xsynergy510x/arm-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="master" />
+  <project name="SaberMod/arm-linux-androideabi-4.9.git" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="gitlab" revision="LTS" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
-  <project name="~xsynergy510x/sm-arm-eabi-4_9/sm-arm-eabi-4_9.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="gitorious" revision="master" />
+  <project name="SaberMod/arm-eabi-4.9.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="gitlab" revision="LTS" />
 
     <!-- My CM forks -->
   <remove-project name="CyanogenMod/android_build" />
