@@ -35,6 +35,11 @@
   <project name="xsynergy510x/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
+    <!-- flo stuff -->
+  <project name="CyanogenMod/android_device_asus_flo" path="device/asus/flo" remote="github" />
+  <project name="CyanogenMod/android_kernel_google_msm" path="kernel/google/msm" remote="github" />
+  <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" />
+
     <!-- Remove bloat -->
   <remove-project name="CyanogenMod/android_packages_apps_CMUpdater" />
   <remove-project name="CyanogenMod/android_packages_apps_SoundRecorder" />
