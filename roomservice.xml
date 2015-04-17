@@ -11,6 +11,8 @@
     <!-- My CM forks -->
   <remove-project name="CyanogenMod/android_build" />
   <project name="xsynergy510x/android_build" path="build" remote="github" />
+  <remove-project name="CyanogenMod/android_external_chromium_org" />
+  <project name="xsynergy510x/android_external_chromium_org" path="external/chromium_org" remote="github" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <project name="xsynergy510x/android_frameworks_base" path="frameworks/base" remote="github" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
