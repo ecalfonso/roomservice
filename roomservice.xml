@@ -13,6 +13,8 @@
   <project name="xsynergy510x/android_build" path="build" remote="github" revision="cm-12.1-Saber" />
   <remove-project name="CyanogenMod/android_external_chromium_org" />
   <project name="xsynergy510x/android_external_chromium_org" path="external/chromium_org" remote="github" />
+  <remove-project name="CyanogenMod/android_external_libpng" />
+  <project name="xsynergy510x/android_external_libpng" path="external/libpng" remote="github" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <project name="xsynergy510x/android_frameworks_base" path="frameworks/base" remote="github" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
