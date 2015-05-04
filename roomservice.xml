@@ -17,8 +17,6 @@
   <project name="xsynergy510x/android_external_libpng" path="external/libpng" remote="github" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <project name="xsynergy510x/android_frameworks_base" path="frameworks/base" remote="github" />
-  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
-  <project name="xsynergy510x/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" />
   <remove-project name="CyanogenMod/android_hardware_qcom_display" />
   <project name="xsynergy510x/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" />
   <project path="hardware/qcom/display-caf/msm8960" name="xsynergy510x/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8960" />
