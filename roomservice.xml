@@ -32,7 +32,7 @@
   <remove-project name="CyanogenMod/android_packages_apps_Mms-caf" />
   <project name="xsynergy510x/android_packages_apps_Mms-caf" path="packages/apps/Mms" remote="github" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
-  <project name="xsynergy510x/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="cm-12.1-Saber" />
+  <project name="xsynergy510x/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" />
   <remove-project name="CyanogenMod/android_system_core" />
   <project name="xsynergy510x/android_system_core" path="system/core" remote="github" />
   <remove-project name="CyanogenMod/android_vendor_cm" />
