@@ -8,6 +8,10 @@
     <!-- glibc stuff -->
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="aosp" revision="master" />
 
+    <!-- Arter97's WebView -->
+  <remove-project name="CyanogenMod/android_frameworks_webview" />
+  <project name="arter97/android_frameworks_webview" path="frameworks/webview" remote="github" revision="cm-12.1" />
+
     <!-- My SaberMod Forks -->
   <project name="xsynergy510x/android_vendor_sabermod" path="vendor/sm" remote="github" />
 
