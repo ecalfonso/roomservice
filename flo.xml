@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- My fork to fix SaberMod building -->
+  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
+  <project name="xsynergy510x/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" />
+  <project path="hardware/qcom/display-caf/msm8960" name="xsynergy510x/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8960" />
+
+    <!-- flo stuff -->
+  <project name="xsynergy510x/android_device_asus_flo" path="device/asus/flo" remote="github" />
+  <project name="xsynergy510x/android_kernel_google_msm" path="kernel/google/msm" remote="github" />
+
+    <!-- Proprietary libs -->
+  <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" />
+</manifest>

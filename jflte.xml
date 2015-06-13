@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- My fork to fix SaberMod building -->
+  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
+  <project name="xsynergy510x/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" />
+  <project path="hardware/qcom/display-caf/msm8960" name="xsynergy510x/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8960" />
+
+    <!-- My jf specific forks -->
+  <project name="xsynergy510x/android_device_samsung_jflte" path="device/samsung/jflte" remote="github" />
+  <project name="xsynergy510x/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" revision="cm-12.1" />
+  <project name="xsynergy510x/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-12.1" />
+  <project name="xsynergy510x/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
+  <project name="xsynergy510x/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
+
+    <!-- CM Samsung Hardware repo -->
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
+</manifest>
