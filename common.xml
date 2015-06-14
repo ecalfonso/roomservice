@@ -6,6 +6,10 @@
     <!-- SaberMod Vendor fork -->
   <project name="xsynergy510x/android_vendor_sabermod" path="vendor/sm" remote="github" />
 
+    <!-- Arter97's WebView -->
+  <remove-project name="CyanogenMod/android_frameworks_webview" />
+  <project name="arter97/android_frameworks_webview" path="frameworks/webview" remote="github" revision="cm-12.1" />
+
     <!-- My CM forks -->
   <remove-project name="CyanogenMod/android_build" />
   <project name="xsynergy510x/android_build" path="build" remote="github" revision="cm-12.1" />
