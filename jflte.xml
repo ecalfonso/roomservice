@@ -8,7 +8,7 @@
     <!-- My jf specific forks -->
   <project name="xsynergy510x/android_device_samsung_jflte" path="device/samsung/jflte" remote="github" />
   <project name="xsynergy510x/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" revision="cm-12.1" />
-  <project name="xsynergy510x/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-12.1-clean" />
+  <project name="xsynergy510x/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-12.1" />
   <project name="xsynergy510x/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
 
     <!-- CM jf repos -->
