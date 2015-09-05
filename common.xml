@@ -11,6 +11,7 @@
   <project name="Chroma-Aosp/android_frameworks_webview" path="frameworks/webview" remote="github" revision="lp5.1" />
 
     <!-- CM Browser: Gello-->
+  <remove-project name="CyanogenMod/android_packages_apps_Browser" />
   <project name="CyanogenMod/android_packages_apps_Gello" path="packages/apps/Gello" remote="github" />
 
     <!-- My CM forks -->
