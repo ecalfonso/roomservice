@@ -10,6 +10,9 @@
   <remove-project name="CyanogenMod/android_frameworks_webview" />
   <project name="Chroma-Aosp/android_frameworks_webview" path="frameworks/webview" remote="github" revision="lp5.1" />
 
+    <!-- CM Browser: Gello-->
+  <project name="CyanogenMod/android_packages_apps_Gello" path="packages/apps/Gello" remote="github" />
+
     <!-- My CM forks -->
   <remove-project name="CyanogenMod/android_art" />
   <project name="xsynergy510x/android_art" path="art" remote="github" />
