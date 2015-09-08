@@ -10,6 +10,10 @@
   <remove-project name="CyanogenMod/android_frameworks_webview" />
   <project name="Chroma-Aosp/android_frameworks_webview" path="frameworks/webview" remote="github" revision="lp5.1" />
 
+    <!-- Arter97's optimized jemalloc repo -->
+  <remove-project name="platform/external/jemalloc" />
+  <project path="external/jemalloc" name="arter97/android_external_jemalloc" remote="github" revision="android-5.1" />
+
     <!-- My CM forks -->
   <remove-project name="CyanogenMod/android_art" />
   <project name="xsynergy510x/android_art" path="art" remote="github" />
