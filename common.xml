@@ -14,6 +14,10 @@
   <remove-project name="platform/external/jemalloc" />
   <project path="external/jemalloc" name="arter97/android_external_jemalloc" remote="github" revision="android-5.1" />
 
+    <!-- Viper4Android -->
+  <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
+  <project path="packages/apps/ViPER4Android" name="vipersaudio/viper4android_fx" remote="github" revision="master" />
+
     <!-- My CM forks -->
   <remove-project name="CyanogenMod/android_art" />
   <project name="xsynergy510x/android_art" path="art" remote="github" />
