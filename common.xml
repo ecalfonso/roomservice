@@ -1,22 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Google GLIBC HOST toolchain -->
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" remote="aosp" revision="master" />
+    <!-- Arter97's optimized jemalloc repo -->
+  <remove-project name="platform/external/jemalloc" />
+  <project 
+	name="arter97/android_external_jemalloc" 
+	path="external/jemalloc" 
+	remote="github" 
+	revision="android-5.1" />
 
-    <!-- SaberMod Vendor fork -->
-  <project name="xsynergy510x/android_vendor_sabermod" path="vendor/sm" remote="github" />
+    <!-- Google GLIBC HOST toolchain -->
+  <project 
+	name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" 
+	path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" 
+	remote="aosp" 
+	revision="master" />
 
     <!-- Google's Prebuilt WebView -->
   <remove-project name="CyanogenMod/android_frameworks_webview" />
-  <project name="Chroma-Aosp/android_frameworks_webview" path="frameworks/webview" remote="github" revision="lp5.1" />
+  <project 
+	name="Chroma-Aosp/android_frameworks_webview" 
+	path="frameworks/webview" 
+	remote="github" 
+	revision="lp5.1" />
 
-    <!-- Arter97's optimized jemalloc repo -->
-  <remove-project name="platform/external/jemalloc" />
-  <project path="external/jemalloc" name="arter97/android_external_jemalloc" remote="github" revision="android-5.1" />
+    <!-- My SaberMod Vendor fork -->
+  <project 
+	name="xsynergy510x/android_vendor_sabermod" 
+	path="vendor/sm" 
+	remote="github" />
+
+    <!-- SlimSaber SQLite -->
+  <remove-project name="CyanogenMod/android_external_sqlite" />
+  <project 
+	name="SlimSaber/android_external_sqlite" 
+	path="external/sqlite" 
+	remote="github" 
+	revision="lp5.1" />
 
     <!-- Viper4Android -->
   <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
-  <project path="packages/apps/ViPER4Android" name="vipersaudio/viper4android_fx" remote="github" revision="master" />
+  <project 
+	name="vipersaudio/viper4android_fx" 
+	path="packages/apps/ViPER4Android" 
+	remote="github" 
+	revision="master" />
 
     <!-- My CM forks -->
   <remove-project name="CyanogenMod/android_art" />
