@@ -23,6 +23,19 @@
 	remote="github" 
 	revision="lp5.1" />
 
+    <!-- My SaberMod Toolchains -->
+  <project
+	name="xsynergy510x/arm-eabi-4.9"
+	path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9"
+	remote="github"
+	revision="master" />
+
+  <project
+        name="xsynergy510x/arm-linux-androideabi-4.8"
+        path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8"
+        remote="github"
+        revision="master" />
+
     <!-- My SaberMod Vendor fork -->
   <project 
 	name="xsynergy510x/android_vendor_sabermod" 
