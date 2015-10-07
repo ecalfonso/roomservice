@@ -76,9 +76,6 @@
   <remove-project name="CyanogenMod/android_external_libpng" />
   <project name="xsynergy510x/android_external_libpng" path="external/libpng" remote="github" />
 
-  <remove-project name="CyanogenMod/android_external_sepolicy" />
-  <project name="xsynergy510x/android_external_sepolicy" path="external/sepolicy" remote="github" />
-
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <project name="xsynergy510x/android_frameworks_base" path="frameworks/base" remote="github" />
 
