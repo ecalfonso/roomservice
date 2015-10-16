@@ -1,32 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Arter97's optimized jemalloc repo -->
-  <remove-project name="platform/external/jemalloc" />
-  <project 
-	name="arter97/android_external_jemalloc" 
-	path="external/jemalloc" 
-	remote="github" 
-	revision="android-5.1" />
-
-    <!-- Google GLIBC HOST toolchain -->
-  <project 
-	name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" 
-	path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" 
-	remote="aosp" 
-	revision="master" />
-
-    <!-- Google's Prebuilt WebView -->
-  <remove-project name="CyanogenMod/android_frameworks_webview" />
-  <project 
-	name="Chroma-Aosp/android_frameworks_webview" 
-	path="frameworks/webview" 
-	remote="github" 
-	revision="lp5.1" />
-
     <!-- My SaberMod Toolchains -->
   <project
 	name="xsynergy510x/arm-eabi-4.9"
-	path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9"
+	path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"
 	remote="github"
 	revision="master" />
 
@@ -36,64 +13,4 @@
         remote="github"
         revision="master" />
 
-    <!-- My SaberMod Vendor fork -->
-  <project 
-	name="xsynergy510x/android_vendor_sabermod" 
-	path="vendor/sm" 
-	remote="github" />
-
-    <!-- Arter97 SQLite -->
-  <remove-project name="CyanogenMod/android_external_sqlite" />
-  <project 
-	name="arter97/android_external_sqlite" 
-	path="external/sqlite" 
-	remote="github" />
-
-    <!-- Viper4Android -->
-  <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
-  <project 
-	name="vipersaudio/viper4android_fx" 
-	path="packages/apps/ViPER4Android" 
-	remote="github" 
-	revision="master" />
-
-    <!-- My CM forks -->
-  <remove-project name="CyanogenMod/android_art" />
-  <project name="xsynergy510x/android_art" path="art" remote="github" />
-
-  <remove-project name="CyanogenMod/android_bionic" />
-  <project name="xsynergy510x/android_bionic" path="bionic" remote="github" />
-
-  <remove-project name="CyanogenMod/android_build" />
-  <project name="xsynergy510x/android_build" path="build" remote="github" />
-
-  <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
-  <project name="xsynergy510x/android_external_bluetooth_bluedroid" path="external/bluetooth/bluedroid" remote="github" />
-
-  <remove-project name="CyanogenMod/android_external_chromium_org" />
-  <project name="xsynergy510x/android_external_chromium_org" path="external/chromium_org" remote="github" />
-
-  <remove-project name="CyanogenMod/android_external_libpng" />
-  <project name="xsynergy510x/android_external_libpng" path="external/libpng" remote="github" />
-
-  <remove-project name="CyanogenMod/android_frameworks_base" />
-  <project name="xsynergy510x/android_frameworks_base" path="frameworks/base" remote="github" />
-
-  <remove-project name="CyanogenMod/android_libcore" />
-  <project name="xsynergy510x/android_libcore" path="libcore" remote="github" />
-
-  <remove-project name="CyanogenMod/android_packages_apps_Dialer" />
-  <project name="xsynergy510x/android_packages_apps_Dialer" path="packages/apps/Dialer" remote="github" />
-
-  <remove-project name="CyanogenMod/android_packages_apps_Mms-caf" />
-  <project name="xsynergy510x/android_packages_apps_Mms-caf" path="packages/apps/Mms" remote="github" />
-
-  <remove-project name="CyanogenMod/android_packages_apps_Settings" />
-  <project name="xsynergy510x/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" />
-
-  <remove-project name="CyanogenMod/android_system_core" />
-  <project name="xsynergy510x/android_system_core" path="system/core" remote="github" />
-
-  <remove-project name="CyanogenMod/android_vendor_cm" />
-  <project name="xsynergy510x/android_vendor_cm" path="vendor/cm" remote="github" />
 </manifest>
