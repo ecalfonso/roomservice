@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- Temp forks for CM13 building -->
+  <remove-project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" revision="cm-13.0-caf-8960" />
+  <project name="xsynergy510x/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" revision="cm-13.0-caf-8960" />
+
     <!-- My jf specific forks -->
   <project name="xsynergy510x/android_device_samsung_jflte" path="device/samsung/jflte" remote="github" />
   <project name="xsynergy510x/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" />
