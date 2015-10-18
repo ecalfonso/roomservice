@@ -10,7 +10,6 @@
   <remove-project name="platform/prebuilts/clang/linux-x86/3.1" />
   <remove-project name="platform/prebuilts/clang/linux-x86/3.2" />
   <remove-project name="platform/prebuilts/clang/linux-x86/host/3.4" />
-  <remove-project name="platform/prebuilts/clang/linux-x86/host/3.5" />
   <remove-project name="platform/prebuilts/clang/linux-x86/mips/3.3" />
   <remove-project name="platform/prebuilts/clang/linux-x86/x86/3.3" />
 
