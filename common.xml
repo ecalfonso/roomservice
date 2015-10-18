@@ -8,14 +8,6 @@
 	remote="github" 
 	revision="android-5.1" />
 
-    <!-- Drop AOSP Browser for Gello -->
-  <remove-project name="packages/apps/Browser" />
-  <project 
-	name="CyanogenMod/android_packages_apps_Gello" 
-	path="packages/apps/Gello" 
-	remote="github"
-	revision="cm-12.1" />
-
     <!-- Google GLIBC HOST toolchain -->
   <project 
 	name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" 
