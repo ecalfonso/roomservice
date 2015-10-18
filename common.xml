@@ -9,7 +9,7 @@
 	revision="android-5.1" />
 
     <!-- Drop AOSP Browser for Gello -->
-  <remove-project name="CyanogenMod/android_packages_apps_Browser" />
+  <remove-project name="packages/apps/Browser" />
   <project 
 	name="CyanogenMod/android_packages_apps_Gello" 
 	path="packages/apps/Gello" 
