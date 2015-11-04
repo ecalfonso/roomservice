@@ -15,6 +15,7 @@
     <!-- CM jf repos -->
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
+  <remove-project name="platform/external/stlport" />
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-13.0" />
 
     <!-- CM SamsungServiceMode -->
