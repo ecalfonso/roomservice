@@ -30,11 +30,13 @@
 	remote="github"
 	revision="master" />
 
+<!--  
   <project
         name="xsynergy510x/arm-linux-androideabi-4.8"
         path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8"
         remote="github"
         revision="master" />
+-->
 
   <project
 	name="xsynergy510x/arm-linux-androideabi-4.9"
