@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <!-- Temp forks for CM13 building -->
-  <remove-project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" revision="cm-13.0-caf-8960" />
-  <project name="xsynergy510x/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8960" revision="cm-13.0-caf-8960" />
-
-  <remove-project name="CyanogenMod/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" revision="cm-13.0-caf-8960" />
-  <project name="xsynergy510x/android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8960" revision="cm-13.0-caf-8960" />
-
-    <!-- My jf specific forks -->
-  <project name="xsynergy510x/android_device_samsung_jflte" path="device/samsung/jflte" remote="github" />
-  <project name="xsynergy510x/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" />
-  <project name="xsynergy510x/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
-  <project name="xsynergy510x/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
-
-    <!-- CM jf repos -->
+  <!-- CyanogenMod jf repos -->
+  <project name="CyanogenMod/android_device_samsung_jfltetmo" path="device/samsung/jfltetmo" remote="github" />
+  <project name="CyanogenMod/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
+  <project name="CyanogenMod/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
+
+  <!-- Jf Proprietary blobs -->
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
 </manifest>
