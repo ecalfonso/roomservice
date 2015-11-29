@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Arter97's Jemalloc repo -->
+  <remove-project name="platform/external/jemalloc" />
+  <project 
+	name="arter97/android_external_jemalloc" 
+	path="external/jemalloc" 
+	remote="github" 
+	revision="android-6.0" />
+
+  <!-- Arter97 SQLite repo -->
+  <remove-project name="CyanogenMod/android_external_sqlite" />
+  <project 
+	name="arter97/android_external_sqlite" 
+	path="external/sqlite" 
+	remote="github" 
+	revision="cm-13.0" />
+
   <!-- My CM Forks -->
   <remove-project name="CyanogenMod/android_art" />
   <project name="xsynergy510x/android_art" path="art" remote="github" />
