@@ -23,6 +23,9 @@
   <remove-project name="CyanogenMod/android_build" />
   <project name="xsynergy510x/android_build" path="build" remote="github" />
 
+  <remove-project name="CyanogenMod/android_external_wpa_supplicant_8" />
+  <project name="xsynergy510x/android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" />
+
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <project name="xsynergy510x/android_frameworks_av" path="frameworks/av" remote="github" />
 
