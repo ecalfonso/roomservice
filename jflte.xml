@@ -3,9 +3,13 @@
   <!-- My jf forked repos -->
   <project name="xsynergy510x/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" />
   <project name="xsynergy510x/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" revision="cm-13.0-deunified" />
-  <project name="xsynergy510x/android_device_samsung_jflte-gsm" path="device/samsung/jfltegsm" remote="github" />
+  <project name="xsynergy510x/android_device_samsung_jfltegsm" path="device/samsung/jfltegsm" remote="github" />
 
   <!-- CyanogenMod jf repos -->
+  <project name="xsynergy510x/android_device_samsung_jfltetmo" path="device/samsung/jfltegsm" remote="github" />
+  <project name="xsynergy510x/android_device_samsung_jfltespr" path="device/samsung/jfltegsm" remote="github" />
+  <project name="xsynergy510x/android_device_samsung_jflteusc" path="device/samsung/jfltegsm" remote="github" />
+  <project name="xsynergy510x/android_device_samsung_jfltevzw" path="device/samsung/jfltegsm" remote="github" />
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
