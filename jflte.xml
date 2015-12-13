@@ -14,6 +14,9 @@
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
 
+  <!-- stlport, needed for CDMA variants -->
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" />
+
   <!-- Jf Proprietary blobs -->
   <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
 </manifest>
