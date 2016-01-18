@@ -46,6 +46,9 @@
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <project name="xsynergy510x/android_frameworks_base" path="frameworks/base" remote="github" />
 
+  <remove-project name="CyanogenMod/android_frameworks_rs" />
+  <project name="xsynergy510x/android_frameworks_rs" path="frameworks/rs" remote="github" />
+
   <remove-project name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project name="xsynergy510x/android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" />
 
