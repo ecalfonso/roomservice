@@ -22,8 +22,8 @@
 
   <!-- Dragon Clang Toolchain -->
   <project
-	name="dragon-tc/dragontc-3.7" 
-	path="prebuilts/clang/linux-x86/host/3.7"
+	name="dragon-tc/dragontc-3.8" 
+	path="prebuilts/clang/linux-x86/host/3.8"
 	remote="bb"
 	revision="master" />
 
