@@ -22,9 +22,9 @@
 
   <!-- Dragon Clang Toolchain -->
   <project
-	name="dragon-tc/dragontc-3.8" 
+	name="xsynergy510x/DragonTC_3.8" 
 	path="prebuilts/clang/linux-x86/host/3.8"
-	remote="bb"
+	remote="github"
 	revision="master" />
 
   <!-- My CM Forks -->
