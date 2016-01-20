@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote
-	name="bb"
-	fetch="https://bitbucket.org/" />
-
   <!-- Arter97's Jemalloc repo -->
   <remove-project name="platform/external/jemalloc" />
   <project 
@@ -19,13 +15,6 @@
 	path="external/sqlite" 
 	remote="github" 
 	revision="cm-13.0" />
-
-  <!-- Dragon Clang Toolchain -->
-  <project
-	name="dragon-tc/dragontc-3.7" 
-	path="prebuilts/clang/linux-x86/host/3.7"
-	remote="bb"
-	revision="master" />
 
   <!-- My CM Forks -->
   <remove-project name="CyanogenMod/android_art" />
@@ -59,6 +48,10 @@
   <project name="xsynergy510x/android_vendor_cm" path="vendor/cm" remote="github" />
 
   <!-- UBER Toolchains -->
+  <remote 
+	name="bb"
+	fetch="https://bitbucket.org/" />
+
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" name="UBERTC/arm-eabi-5.3" remote="bb" revision="master" />
 
