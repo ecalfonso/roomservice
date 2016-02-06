@@ -58,12 +58,4 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
 
-  <!-- Viper4Android -->
-  <remove-project name="CyanogenMod/android_packages_apps_AudioFX" />
-  <project 
-	name="vipersaudio/viper4android_fx" 
-	path="packages/apps/ViPER4Android" 
-	remote="github" 
-	revision="master" />
-
 </manifest>
