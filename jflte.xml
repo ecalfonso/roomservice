@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- My jf forked repos -->
-  <project name="xsynergy510x/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="cm-13.0-franco-hammerhead" />
+  <project name="xsynergy510x/android_kernel_samsung_jf" path="kernel/samsung/jf" remote="github" revision="goog_kernel_common-3.4" />
   <project name="xsynergy510x/android_device_samsung_jf-common" path="device/samsung/jf-common" remote="github" revision="cm-13.0-deunified" />
   <project name="xsynergy510x/android_device_samsung_jfltecdma" path="device/samsung/jfltecdma" remote="github" />
   <project name="xsynergy510x/android_device_samsung_jfltegsm" path="device/samsung/jfltegsm" remote="github" />
