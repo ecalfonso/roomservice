@@ -5,7 +5,6 @@
   <remove-project name="CyanogenMod/android_device_generic_arm64" />
   <remove-project name="CyanogenMod/android_hardware_intel_common_libmix" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" />
-  <remove-project name="CyanogenMod/android_hardware_nvidia_audio" />
   <remove-project name="CyanogenMod/android_device_generic_mips" />
   <remove-project name="CyanogenMod/android_device_google_atv" />
   <remove-project name="CyanogenMod/android_hardware_invensense" />
