@@ -7,7 +7,6 @@
   <project name="xsynergy510x/android_device_samsung_jf-common" path="device/samsung/jf-common-performance" remote="github" revision="cm-13.0-performance" />
   <project name="xsynergy510x/android_device_samsung_jfltecdma" path="device/samsung/jfltecdma" remote="github" />
   <project name="xsynergy510x/android_device_samsung_jfltegsm" path="device/samsung/jfltegsm" remote="github" />
-  <project name="xsynergy510x/android_device_samsung_jfltegsm" path="device/samsung/jflteOC" remote="github" revision="cm-13.0-performance" />
 
   <!-- CyanogenMod jf repos -->
   <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
